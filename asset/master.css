@@ -1,0 +1,534 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color:  black;
+    width: 100%;
+    height: 1000vh;
+    display: grid;
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-template-columns: repeat(2,5fr);
+    grid-template-rows: repeat(22,1fr);
+}
+
+main>section{
+    background-color: red;
+    /* border: 1px solid orange; */
+}
+
+main>section:nth-of-type(1){
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+
+main>section:nth-of-type(1)>video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main>section:nth-of-type(1)>nav{
+    position: absolute;
+    width: 250px;
+    /* background-color: red; */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main>section:nth-of-type(1)>nav>ul{
+    display: flex;
+    width: 60%;
+    /* background-color: greenyellow; */
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+
+
+main>section:nth-of-type(1)>nav>ul>li{
+    color: white;
+    /* background-color: aqua;  */
+    font-size: 30px;
+  }
+
+  main>section:nth-of-type(1)>nav>ul>li:nth-of-type(1){
+    position: relative;
+  }
+
+  main>section:nth-of-type(1)>nav>ul>li:nth-of-type(1)::after{
+    content: " ";
+    top: 32px;
+    left: 0;
+    position: absolute;
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    transition: 1s;
+  }
+
+  main>section:nth-of-type(1)>nav>ul>li:nth-of-type(1):hover::after{
+    content: " ";
+    top: 32px;
+    left: 0;
+    position: absolute;
+    width: 39px;
+    height: 3px;
+    background-color: white;
+  }
+
+
+  main>section:nth-of-type(1)>nav>ul>li:nth-of-type(2){
+    position: relative;
+  }
+
+  main>section:nth-of-type(1)>nav>ul>li:nth-of-type(2)::after{
+    content: " ";
+    top: 32px;
+    left: 0;
+    position: absolute;
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    transition: 1s;
+  }
+
+  main>section:nth-of-type(1)>nav>ul>li:nth-of-type(2):hover::after{
+    content: " ";
+    top: 32px;
+    left: 0;
+    position: absolute;
+    width: 95px;
+    height: 3px;
+    background-color: white;
+  }
+
+  main>section:nth-of-type(1)>nav>ul>li:nth-of-type(4){
+    position: relative;
+  }
+
+  main>section:nth-of-type(1)>nav>ul>li:nth-of-type(4)::after{
+    content: " ";
+    top: 32px;
+    left: 0;
+    position: absolute;
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    transition: 1s;
+  }
+
+  main>section:nth-of-type(1)>nav>ul>li:nth-of-type(4):hover::after{
+    content: " ";
+    top: 32px;
+    left: 0;
+    position: absolute;
+    width: 73px;
+    height: 3px;
+    background-color: white;
+  }
+
+  main>section:nth-of-type(1)>nav>ul>li:nth-of-type(5){
+    position: relative;
+  }
+
+  main>section:nth-of-type(1)>nav>ul>li:nth-of-type(5)::after{
+    content: " ";
+    top: 32px;
+    left: 0;
+    position: absolute;
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    transition: 1s;
+  }
+
+  main>section:nth-of-type(1)>nav>ul>li:nth-of-type(5):hover::after{
+    content: " ";
+    top: 32px;
+    left: 0;
+    position: absolute;
+    width: 53px;
+    height: 3px;
+    background-color: white;
+  }
+
+
+
+
+main>section:nth-of-type(1)>nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+
+
+main>section:nth-of-type(1)>h1{
+    position: absolute;
+    font-size: 150px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    top: 30%;
+    width: 100%;
+    padding-left: 2.5%;
+    letter-spacing: 20px;
+    color: white;
+}
+
+main>section:nth-of-type(1)>video>figcaption>nav{
+    /* position: relative;
+    z-index: 999; */
+    width: 100%;
+    height: 20%;
+    background-color: red;
+}
+
+main>section:nth-of-type(1)>video>figcaption>h1{
+    /* position: relative;
+    z-index: 999; */
+    width: 100%;
+    height: 50%;
+    background-color: blue;
+}
+
+
+
+
+main>section:nth-of-type(2){
+    /* background-color: blue; */
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 3 / span 3;
+    background-image: url(img/Thumbnail-Website-DD-02-0-00-00-11_3-949x1091.png);
+    background-position: center;
+    background-size: cover;
+}
+
+main>section:nth-of-type(3){
+    background-color: rgb(255, 0, 247);
+    grid-column: 2 / 3;
+    grid-row: 3 / span 2;
+    background-image: url(img/LUnion_04-Sika-Fire-Mockup02-01B-copy-1-949x825.png);
+    background-position: center;
+    background-size: contain;
+}
+main>section:nth-of-type(4){
+    background-color: rgb(0, 34, 255);
+    grid-column: 2 / 3;
+    grid-row: 5 / span 2;
+    background-image: url(img/POP-Solutions_01-Case-Cover-949x534\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+main>section:nth-of-type(5){
+    background-color: rgb(0, 255, 204);
+    grid-column: 1 / 2 ;
+    grid-row: 6 / span 3;
+    background-image: url(img/Elia_TheNest_FeatureSquare_1265x1100-949x1091.jpg);
+    background-position: center;
+    background-size: contain;
+}
+main>section:nth-of-type(6){
+    background-color: rgb(255, 200, 0);
+    background-image: url(img/ITER_11-Animation-Fusion-Master-EN03.00_00_32_15.Still011-949x534.png);
+    background-size: cover;
+}
+main>section:nth-of-type(7){
+    background-color: rgb(43, 255, 0);
+    grid-column: 2/3;
+    grid-row: 8 / span 2;
+    background-image: url(img/KEA_01-ILUCIDARE03-0-00-05-04-949x825.png);
+    background-position: center;
+    background-size: cover;
+}
+main>section:nth-of-type(8){
+    background-color: rgb(100, 16, 51);
+    grid-column: 1/2;
+    grid-row: 9 / span 2;
+    background-image: url(img/UNHCR_02_05-1265x1100-949x825.jpg);
+    background-position: center;
+    background-size: cover;
+}
+main>section:nth-of-type(9){
+    background-color: rgb(141, 62, 95);
+    background-image: url(img/Elia-Group_15-949x534.jpg);
+    background-position: center;
+    background-size: contain;
+}
+main>section:nth-of-type(10){
+    background-color: rgb(62, 141, 134);
+    background-image: url(img/UCL_roadshow_master_01.00_01_26_12.Still015-949x534.jpg);
+    background-position: center;
+    background-size: contain;
+}
+main>section:nth-of-type(11){
+    background-color: rgb(83, 62, 141);
+    background-image: url(img/Engie-Contrat-Click-Featured-949x534.png);
+    background-position: center;
+    background-size: contain;
+}
+main>section:nth-of-type(12){
+    background-color: rgb(83, 88, 105);
+    background-image: url(img/elia_innovation_styleframe_10_retouche-949x534.jpg);
+    background-position: center;
+    background-size: contain;
+}
+main>section:nth-of-type(13){
+    background-color: rgb(136, 137, 143);
+    grid-column: 2/3;
+    grid-row: 12 / span 2;
+    background-image: url(img/Croky-Featured-Carré-1265-x-1100-949x825.jpg);
+    background-position: center;
+    background-size: cover;
+}
+main>section:nth-of-type(14){
+    background-color: rgb(28, 56, 215);
+    grid-column: 1/2;
+    grid-row: 13 / span 2;
+    background-image: url(img/Sweco-Featured-Square-1265x1100-949x825.jpg);
+    background-position: center;
+    background-size: cover;
+}
+main>section:nth-of-type(15){
+    background-color: rgb(93, 109, 202);
+    grid-column: 2/3;
+    grid-row: 14 / span 2;
+    background-image: url(img/ENRD-Featured-Carré-1265x1100-949x825.jpg);
+    background-position: center;
+    background-size: cover;
+}
+main>section:nth-of-type(16){
+    background-color: rgb(215, 28, 184);
+    grid-column: 1/2;
+    grid-row: 15 / span 3;
+    background-image: url(img/BNP-Featured-Vertical-1265-x-1454-949x1091\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+main>section:nth-of-type(17){
+    background-color: rgb(28, 84, 215);
+    grid-column: 2/3;
+    grid-row: 16/span 2;
+    background-image: url(img/hoogeshots_A.00_02_52_01.Still003-949x825.jpg);
+    background-position: center;
+    background-size: cover;
+}
+main>section:nth-of-type(18){
+    background-color: rgb(28, 215, 146);
+    grid-row: 18/span 2;
+    background-image: url(img/ACI_shot_14-Vertical-1265-x-1454-949x1091.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+main>section:nth-of-type(19){
+    background-color: rgb(50, 65, 59);
+    grid-column: 2/3;
+    grid-row: 18/span 2;
+    background-image: url(img/CDP-14-18-Featured-Carré-1265x1100-949x825.jpg);
+    background-position: center;
+    background-size: cover;
+}
+main>section:nth-of-type(20){
+    background-color: rgb(19, 19, 164);
+    grid-column: 1/2;
+    background-image: url(img/EASA_06-Batteries_1265-x-712-949x534.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    width: 100%;
+    grid-column: 1/3;
+    grid-row: 22/23;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+}
+
+footer>section:nth-of-type(1){
+    width: 37%;
+    height: 100%;
+    /* background-color: blue ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>section:nth-of-type(1)>a{
+    font-size: 17px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: block;
+    width: 38%;
+    height: 36%;
+    color: white;
+    /* background-color: yellow ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer>section:nth-of-type(1)>a>span{
+    font-size: 22px;
+
+}
+
+
+
+footer>section:nth-of-type(1)>a>p{
+    line-height: 22px;
+}
+
+
+
+
+footer>section:nth-of-type(2){
+    width: 38%;
+    height: 100%;
+    /* background-color: rgb(0, 195, 255) ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>section:nth-of-type(2)>div{
+    /* background-color: rgb(47, 47, 52); */
+    width: 60%;
+    height: 36%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer>section:nth-of-type(2)>div>a{
+    text-decoration: none;
+    width: 150px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid white;
+}
+
+
+footer>section:nth-of-type(2)>div>a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+footer>section:nth-of-type(2)>div>span{
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+footer>section:nth-of-type(3){
+    width: 25%;
+    height: 100%;
+    /* background-color: rgb(0, 255, 17) ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>section:nth-of-type(3)>div{
+        width: 50%;
+        height: 36%;
+        /* background-color: rgb(238, 0, 255) ; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+
+
+footer>section:nth-of-type(3)>div>span{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+
+footer>section:nth-of-type(3)>div>section{
+    width: 100%;
+    height: 60%;
+    /* background-color: rgb(25, 0, 255) ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+footer>section:nth-of-type(3)>div>section>div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+footer>section:nth-of-type(3)>div>section>div>a{
+    color: white;
+}
+
+
+footer>section:nth-of-type(3)>div>section>div>a:nth-of-type(1):hover,
+footer>section:nth-of-type(3)>div>section>div>a:nth-of-type(3):hover{
+    color: rgb(14, 90, 212);
+}
+
+
+footer>section:nth-of-type(3)>div>section>div>a:nth-of-type(2):hover{
+    color:rgb(221, 21, 201);
+}
+
+footer>section:nth-of-type(3)>div>section>div:nth-of-type(2)>a:nth-of-type(1):hover{
+    color:rgb(227, 73, 7);
+}
+
+
+footer>section:nth-of-type(3)>div>section>div:nth-of-type(2)>a:nth-of-type(2):hover,
+footer>section:nth-of-type(3)>div>section>div:nth-of-type(2)>a:nth-of-type(3):hover{
+    color: rgb(14, 90, 212);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer>section:nth-of-type(3)>div>section>div>a>i{
+    font-size: 25px;
+}
+
+
