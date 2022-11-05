@@ -8,9 +8,8 @@
 
 ![image psd (1)](https://user-images.githubusercontent.com/109727844/200143117-d6ae0db9-6c18-4f78-b0fb-d7b12149ab8e.jpg)
 
-![image psd (3)](https://user-images.githubusercontent.com/109727844/200142421-e4bb1f39-e97b-4d91-983d-5dd157796621.jpg)
+![image psd (2)](https://user-images.githubusercontent.com/109727844/200143171-a4465307-dc39-4ad6-8fed-7f236cf0a3f7.jpg)
 
-![image psd (4)](https://user-images.githubusercontent.com/109727844/200142505-e95a4908-73e5-4fbf-9e91-b0e06adac614.jpg)
 
 - 🔗 [Demo Project](https://pouria-farahani-developer.github.io/website-Double/)
 
