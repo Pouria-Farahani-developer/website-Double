@@ -17,7 +17,7 @@
 
 - 📆 Created - 2022-07-28
 
-- 🤖 Technologies Used - Html , Css , flex
+- 🤖 Technologies Used - Html , Css , Grid
 
 - 🕵🏻‍♀️ Role - Frontend
 
