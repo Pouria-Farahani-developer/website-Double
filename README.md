@@ -2,7 +2,7 @@
 
 **If you are bored, let's compete and play here 🏆**
 
-![image psd](https://user-images.githubusercontent.com/109727844/200142228-549b913b-d6c9-4893-a22e-bd29627b35d5.jpg)
+![image psd (5)](https://user-images.githubusercontent.com/109727844/200143055-6a101c9c-e55b-4611-91e3-3a1a08a7900f.jpg)
 
 ![image psd (1)](https://user-images.githubusercontent.com/109727844/200142311-1e72a59b-d009-49e2-b30d-058183955678.jpg)
 
